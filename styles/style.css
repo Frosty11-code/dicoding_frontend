@@ -1,5 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: "Stack Sans Text", sans-serif;
+    font-weight: 300;
+    word-spacing: 0.1em;
 }
 
 h2, h3 {
@@ -7,7 +9,61 @@ h2, h3 {
 }
 
 footer {
+    font-weight: bold;
+    text-align: center;
     padding: 20px;
     color: white;
     background-color: #00a2c6;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.profile header{
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    background-color: #00c8eb;
+    color: white;
 }
